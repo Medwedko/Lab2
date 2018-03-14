@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "revert_string.h"
+//#include "revert_string.h"
+
+extern void RevertString(char *str);
 
 void testRevertString(void) {
   char simple_string[] = "Hello";
